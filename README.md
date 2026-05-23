@@ -40,8 +40,8 @@ streamlit run app.py
 ```
 ## 📸 App Preview
 
-![App Screenshot 1](User_interface1.png)
+![App Screenshot 1](User_Interface1.png)
 
-![App Screenshot 2](User_interface2.png)
+![App Screenshot 2](User_Interface2.png)
 
 
