@@ -1,13 +1,18 @@
-
 # 🏡 House Price Prediction App
 
-This is an end-to-end Machine Learning project that predicts house prices based on various features such as area, number of bedrooms, bathrooms, and other amenities.
+This is an end-to-end Machine Learning project that predicts house prices based on features such as area, number of rooms, and various amenities.
+
+The model is deployed using **Streamlit**, allowing users to interactively input values and get real-time predictions.
+
+---
 
 ## 🚀 Features
-- Predicts house prices using trained ML model
-- Built using Stochastic Gradient Descent (SGD) / Linear Regression
-- Interactive web app using Streamlit
-- Real-time predictions based on user input
+- Predict house prices using Machine Learning
+- Real-time predictions through Streamlit UI
+- Handles categorical and numerical data
+- Clean and interactive interface
+
+---
 
 ## 🧠 Technologies Used
 - Python
@@ -15,15 +20,28 @@ This is an end-to-end Machine Learning project that predicts house prices based 
 - Scikit-learn
 - Streamlit
 
-## 📊 Machine Learning Workflow
-1. Data preprocessing (handling categorical features)
-2. Feature engineering
-3. Model training & evaluation
-4. Hyperparameter tuning (SGD)
-5. Model deployment using Streamlit
+---
 
-## 🖥️ How to Run
+## 📊 Machine Learning Workflow
+1. Data preprocessing (handling categorical variables)
+2. Feature engineering
+3. Model training (Linear Regression & SGD)
+4. Hyperparameter tuning
+5. Model evaluation (R² score ≈ 0.65)
+6. Deployment using Streamlit
+
+---
+
+## 🖥️ How to Run Locally
 
 ```bash
-pip install -r requirements.txt
+pip install pandas numpy scikit-learn streamlit
 streamlit run app.py
+```
+## 📸 App Preview
+
+![App Screenshot 1](User_interface1.png)
+
+![App Screenshot 2](User_interface2.png)
+
+
